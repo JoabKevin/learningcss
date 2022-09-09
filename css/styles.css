@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    line-height: 1.4;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    color: #66bfbf;
+}
+
+h3, a {
+    color: #11999e;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.profile-pic {
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.skill-guitar {
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-tire {
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+}
+
+.middle-container {
+    background-color: #e4f9f5;
+}
+
+.bottom-container {
+    background-color: #e4f9f5;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: relative;
+    margin-left: 40%;
+    padding-top: 5%
+}
+
+.first-subtitle {
+    font-size: 2.5rem;
+}
+
+.skill-row {
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skill-row > p {
+    line-height: 2;
+}
